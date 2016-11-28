@@ -1,0 +1,25 @@
+{
+  "name": "codertest",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "coder"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/AlexPoliakov/myLabs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "normalize.css": "*",
+    "html5shiv": "*",
+    "select2": "*",
+    "respond": "*",
+    "five-star-rating": "^1.0.0"
+  }
+}

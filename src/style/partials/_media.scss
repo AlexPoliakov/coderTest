@@ -1,0 +1,171 @@
+@media (max-width: 970px) {
+  div .adaptive {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .age__box,
+  .name__box,
+  .city__box,
+  .gender__box {
+    width: 85%;
+  }
+}
+
+@media (max-width: 920px) {
+  .form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 870px) {
+  .form {
+    width: 93%;
+  }
+  .article__right {
+    flex: 1 100%;
+  }
+  .article__center {
+    margin-right: 0;
+  }
+  .best__cite:after {
+    margin-left: 95%;
+  }
+  .name__range-city {
+    right: 0;
+  }
+}
+
+@media (max-width: 840px) {
+  .form {
+    width: 95%;
+    padding-left: 10px;
+  }
+  .header__form {
+    padding: 0;
+  }
+  h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+  .buttons__check, .buttons__radio {
+    width: 150px;
+  }
+  span.name__range {
+    display: none !important;
+  }
+}
+
+@media (max-width: 804px) {
+  .title__right {
+    margin-left: 0;
+  }
+  .start {
+    width: 300px;
+    height: 70px;
+  }
+  .select2-selection__arrow {
+    width: 25px !important;
+  }
+}
+
+@media (max-width: 758px) {
+  .lupe {
+    display: none;
+  }
+
+  .start {
+    width: 280px;
+    height: 70px;
+  }
+  .buttons__check, .buttons__radio {
+    width: 140px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .start {
+    width: 270px;
+    height: 70px;
+  }
+  .buttons__check, .buttons__radio {
+    width: 135px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .up__right {
+    flex: 1 100%;
+    order: 1;
+    margin: auto;
+  }
+  .up__content {
+    margin-top: 0;
+  }
+  .up__left {
+    order: 2;
+    margin: auto;
+  }
+  .carousel {
+    float: none;
+    margin: 0 auto;
+  }
+  .tab__bar {
+    margin: 40px auto 0 auto;
+  }
+
+  .start {
+    width: 250px;
+    height: 70px;
+  }
+  .buttons__check, .buttons__radio {
+    width: 125px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 680px) {
+  .select2-selection__arrow {
+    width: 20px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__pictures {
+    flex: 1 100%;
+  }
+  .header__form {
+    display: none;
+  }
+  .hidden__form {
+    display: flex;
+  }
+  .article__left, .article__center, .article__right {
+    flex: 1 100%;
+  }
+  .article__center {
+    margin: 0;
+  }
+  .title__right {
+    line-height: 27px;
+  }
+  .article__left, .article__center, .article__right {
+    flex: 1 100%;
+  }
+  .article__center {
+    margin: 0;
+  }
+  .title__right {
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 479px) {
+  .up__right {
+    display: none;
+  }
+}

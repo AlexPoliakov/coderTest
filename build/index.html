@@ -1,0 +1,409 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>coderTest</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <script type="text/javascript" src="js/main.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="/js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="adaptive">
+            <section class="header">
+                <div class="header__logo">
+                    <div class="header__logo-logo"></div>
+                </div>
+                <div class="header__content">
+                    <div class="header__list">
+                        <div class="header__pictures">
+                            <div class="pictures__buttons">
+                                <a href="#" class="buttons__item buttons__item-one"></a><span class="btt"></span>
+                                <a href="#" class="buttons__item buttons__item-two"></a><span class="btt"></span>
+                                <a href="#" class="buttons__item buttons__item-three"></a><span class="btt"></span>
+                                <a href="#" class="buttons__item buttons__item-four"></a><span class="btt"></span>
+                            </div>
+                        </div>
+                        <div class="header__form">
+                            <h2>Join us now. It's FREE</h2>
+                            <form action="" class="form">
+                                <div class="gender">
+                                    <p class="iam">I am</p>
+                                    <div class="gender__box">
+                                        <div class="register__switch">
+                                            <input type="radio" name="sex" value="F" id="sex_f" class="register__input register__input-female" >
+                                            <label for="sex_f" class="register__label register__label-female"></label>
+                                            <input type="radio" name="sex" value="M" id="sex_m" class="register__input register__input-male" checked>
+                                            <label for="sex_m" class="register__label register__label-male"></label>
+                                        </div>
+                                        <p class="search clear-fix"><span class="lupe"></span>looking for</p>
+                                        <div class="register__switch">
+                                            <input type="checkbox" name="sex" value="F" id="sex_one" class="right__input right__input-one" checked>
+                                            <label for="sex_one" class="right__label right__label-one"></label>
+                                            <input type="checkbox" name="sex" value="M" id="sex_two" class="right__input right__input-two">
+                                            <label for="sex_two" class="right__label right__label-two"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__name">
+                                    <p class="name__text">Name</p>
+                                    <div class="name__box">
+                                        <label for="you__name" class="name__label"></label>
+                                        <input type="text" id="you__name" name="name" placeholder="" required style="width: 100%"/>
+                                    </div>
+                                    <span class="name__range name__range-name"></span>
+                                    <span class="form__hint form__hint-name">Enter your name</span>
+                                </div>
+                                <div class="date">
+                                    <p class="age">Age</p>
+                                    <div class="age__box">
+                                        <label for="number" class="date__label"></label>
+                                            <select name="birthday" id="number" class="day" size="1"  style="width: 25%"   >
+                                                <option value="Day">Day</option>
+                                                <option class="day" value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value=19"">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                    </select>
+            
+                                        <label for="month" class="month__label"></label>
+                                            <select name="birthday" id="month" style="width: 40%">
+                                                <option class="you__month" value="Month">Month</option>
+                                                <option value="January">January</option>
+                                                <option value="February">February</option>
+                                                <option value="March">March</option>
+                                                <option value="April">April</option>
+                                                <option value="May">May</option>
+                                                <option value="June">June</option>
+                                                <option value="July">July</option>
+                                                <option value="	August">August</option>
+                                                <option value="September">September</option>
+                                                <option value="October">October</option>
+                                                <option value="	November">November</option>
+                                                <option value="December">December</option>
+                                    </select>
+            
+                                        <label for="year" class="year__label"></label>
+                                            <select name="birthday" id="year" style="width: 35%">
+                                                <option class="you__year" value="Year">Year</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2011">2011</option>
+                                                <option value="2010">2010</option>
+                                                <option value="2009">2009</option>
+                                                <option value="2008">2008</option>
+                                                <option value="2007">2007</option>
+                                                <option value="2006">2006</option>
+                                                <option value="2005">2005</option>
+                                                <option value="2004">2004</option>
+                                                <option value="2003">2003</option>
+                                                <option value="2002">2002</option>
+                                                <option value="2001">2001</option>
+                                                <option value="2000">2000</option>
+                                                <option value="1999">1999</option>
+                                                <option value="1998">1998</option>
+                                                <option value="1997">1997</option>
+                                    </select>
+            
+                                        <span class="name__range name__range-date"></span>
+                                        <span class="form__hint"></span>
+                                    </div>
+                                </div>
+                                <div class="city">
+                                    <p class="city__home">City</p>
+                                    <div class="city__box">
+                                        <label for="you__city" class="city__label"></label>
+                                        <select name="city" id="you__city" class="city__select"  style="width: 100%">
+                                            <option value="London">London</option>
+                                            <option value="Paris">Paris</option>
+                                            <option value="New_York">New York</option>
+                                            <option value="Tokyo">Tokyo</option>
+                                            <option value="Los Angeles">Los Angeles</option>
+                                        </select>
+                                    </div>
+                                    <span class="name__range name__range-city"></span>
+                                </div>
+                                <div class="choice__button">
+                                    <div class="buttons__check">
+                                        <div class="check__one">
+                                            <input type="checkbox" name="iam" value="iam" id="check__item-one" class="check__item">
+                                            <label for="check__item-one">I'm cool</label>
+                                            <span></span>
+                                        </div>
+                                        <div class="check__two">
+                                            <input type="checkbox" name="life" value="life" id="check__item-two" class="check__item">
+                                            <label for="check__item-two">Life's good</label>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="buttons__radio">
+                                        <div class="radio__one">
+                                            <input type="radio" name="drink" id="radio__item-one" value="drink__tea" class="radio__item">
+                                            <label for="radio__item-one" class="label__radio">Tee</label>
+                                            <span></span>
+                                        </div>
+                                        <div class="radio__two">
+                                            <input type="radio" name="drink" id="radio__item-two" value="drink__beer" class="radio__item" checked>
+                                            <label for="radio__item-two" class="label__radio">Beer</label>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__button">
+                                    <button class="start" id="start__font">Start Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="box clear-fix">
+                <section class="content">
+                    <div class="hidden__form">
+                        <button id="hidden__join">Join us Now</button>
+                    </div>
+                    <div class="popup__centre">
+                        <div class="popup" id="myPopup"><a href="#" class="close"></a>
+                
+                        </div>
+                    </div>
+                    <div class="overflow"></div>
+                    <div class="up__content">
+                        <div class="up__left">
+                            <h3 class="tile__left">Code this block</h3>
+                            <p class="up__text clear-fix"><span class="circle__photo"></span>
+                                This text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Harum itaque nam blanditiis eveniet enim eligendi quae adipisci?
+                                Assumenda blanditiis voluptas tempore porro quibusdam beatae deleniti quod asperiores
+                                sapiente dolorem error! Quo nam quasi soluta reprehenderit laudantium optio ipsam ducimus
+                                consequatur enim fuga quibusdam mollitia nesciunt modi.
+                                This text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Harum itaque nam blanditiis eveniet enim eligendi quae adipisci?
+                                Assumenda blanditiis voluptas tempore porro quibusdam beatae deleniti quod asperiores
+                                sapiente dolorem error!
+                            </p>
+                        </div>
+                        <div class="up__right clear-fix">
+                            <h3 class="title__right">Users List</h3>
+                            <div class="carousel">
+                                <div name="prev" class="arrow carousel-button-left"></div>
+                                <div class="carousel-wrapper">
+                                    <div class="carousel-items">
+                                        <div class="carousel-block carousel-block-one">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-two">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-three">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-four">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-five">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-six">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-seven">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                        <div class="carousel-block carousel-block-eight">
+                                            <p class="icon__block icon_text">Sexy Girl</p>
+                                            <a href="#" class="icon__block icon__block1"></a>
+                                            <a href="#" class="icon__block icon__block2"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div name="next" class="arrow carousel-button-right"></div>
+                            </div>
+                            <div class="tab__bar">
+                                <div class="menu1">
+                                    <br id="tab2"/>
+                                    <a href="#tab1" class="menu1__tab">Users List</a><a href="#tab2" class="menu1__tab menu1__tab-tab2">Active list tab<span class="grey"> | 38</span></a>
+                                    <div class="menu1__block">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Architecto commodi consequatur dignissimos, eos explicabo fugiat laboriosam provident!
+                                            Blanditiis delectus eligendi et fugit hic neque, nisi odio praesentium soluta voluptas
+                                            voluptates!
+                                        </p>
+                                    </div>
+                                    <div class="menu1__block clear-fix">
+                                        <div class="progress__left">
+                                            <div class="meter__box">
+                                                <div class="meter-wrapper">
+                                                    <div class="meter"><span style="width:35%"></span></div>
+                                                    <span class="progress" id="progress__font">0%</span>
+                                                </div>
+                                            </div>
+                                            <div class="nav">
+                                                <ul class="menu">
+                                                    <li class="menu__item menu__item-arrow menu__item-one"><a href="" class="menu__list">Step 1</a></li>
+                                                    <li class="menu__item menu__item-arrow menu__item-two"><a href="" class="menu__list">Step 2</a></li>
+                                                    <li class="menu__item menu__item-arrow menu__item-three"><a href="" class="menu__list">Step 3</a></li>
+                                                    <li class="menu__item menu__item-arrow menu__item-four"><a href="" class="menu__list">Step 4</a></li>
+                                                    <li class="menu__item menu__item-five"><a href="" class="menu__list">Step 5</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="volume">
+                                                <input type="range" min="0" max="100" value="0" id="volume__range">
+                                            </div>
+                                        </div>
+                                        <div class="progress__right">
+                                            <div class="circle__variant">
+                                                <label for="volume__range"></label>
+                                                <div id="diagram">
+                                                    <svg id="show" viewBox="0 0 100 100">
+                                                        <circle r="25" cx="50" cy="50" id="big" ></circle>
+                                                        <circle r="29" cx="50" cy="50" id="small"></circle>
+                                                    </svg>
+                                                    <output class="percent" id="percent__font" for="volume__range">0%</output>
+                                                </div>
+                                            </div>
+                                            <div class="star__rating" id="el"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down__content ">
+                        <h3>How to succeed in online dating</h3>
+                        <div class="article">
+                            <div class="article__left">
+                                <p class="article__text article__text-left">The shape-outside property controls how content will wrap around a
+                                    floated element’s bounding-box. Typically this is so that text can
+                                    reflow over a shape such as a circle, ellipse or a polygon.
+                                    It’s important to note thatthis property will only work on floated elements for now,
+                                    although this is likely tochange in the future. The shape-outside property can also be
+                                    manipulated with transitions or animations.
+                                    The ellipse() function requires the radii values for the x, y axis of the ellipse followed
+                                    by the coordinates to position the center of the shape within its bounding box. For instance
+                                    the example above will position the center of the ellipse in the vertical and horizontal center
+                                    of the .element div.
+                                    At the demo above may suggest that we’re changing the shape of the div itself, if we add
+                                    borders and a background-image we’ll find that the bounding box is in fact still rectangular.
+                                </p>
+                                    <blockquote>OpenType-SVG is a font format in which an OpenType font has all or just some of its glyphs
+                                    represented as SVG (scalable vector graphics) artwork. This allows the display of multiple colors
+                                    and gradients in a single glyph. Because of these features, we also refer to OpenType-SVG fonts as “color
+                                    fonts”.</blockquote>
+                            </div>
+                            <div class="article__center">
+                                <p class="article__text article__text-center">
+                                    <blockquote>A CDN works by fetching static assets from your site's server and caching them on
+                                    their servers. When a browser makes a request to visit your site, the static contents are served
+                                    via the CDN rather than by your site. This is faster because the CDN servers are globally distributed
+                                    and serve as proxies that determine which server is located physically closest to your visitor,
+                                    thus delivering content on a speedier, more convenient network. Hence the full name: Content Delivery
+                                    Network.</blockquote>
+                                </p>
+                                <p class="article__text article__text-center">So, how does the browser know to get the resources from the CDN instead of your server?
+                                    The URL of your static resources are replaced to point to the CDN server instead of the URL of your
+                                    own site.
+                                    For example, say we want CDN to be configured as a subdomain. For <a href="https://css-tricks.com" class="tricks" target="_blank">CSS-Tricks</a>, that might be
+                                    something like cdn.css-tricks.com and that will be the relative URL for which we base all our assets.
+                                    Put more succinctly put, the URLs of assets on our site like this
+                                    What we're talking about instead is using the CDN as a virtual layer that stands between your server
+                                    and a user's browser. That virtual layer listens in on the request the browser is making to your
+                                    server and gladly responds with cached assets on behalf of the server.
+                                </p>
+                            </div>
+                            <div class="article__right">
+                                <p class="article__text article__text-right title">
+                                    Usually I think of new features on the web as a three way dance between:
+                                </p>
+                                <p class="title"><span class="number">1.</span><strong>Developers.</strong> They use the features.
+                                    They are the voice of what is wanted.
+                                    They are the measuring stick of what actually get used.
+                                </p>
+                                <p class="title"><span class="number">2.</span><strong>Browsers.</strong> They do the implementing
+                                    of features. They are the gatekeepers.
+                                    They have their own ideas on what is needed. They are businesses.
+                                </p>
+                                <p class="title"><span class="number">3.</span><strong>Specs.</strong> They document how features should work.
+                                    Browsers look to them to see how to implementfeatures, because the incentive is there to implement
+                                    features interoperability.
+                                </p>
+                                <blockquote  class="best__cite">
+                                    I'm not so sure. I see ideas that start as dogmatic claims spread. I've heard people regurgitate
+                                    a dogmatic statement years after I've felt like the industry had moved on. When you happen to agree
+                                    with them, they feel good. They feel powerful. They feel like something you want to get behind and
+                                    spread yourself.
+                                </blockquote>
+                                <a href="http://websketches.ru/plugins/select2" target="_blank" class="link__content">&#9654<span class="let"></span>Click her to view more</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer">
+                    <div class="min__logo"></div>
+                    <div class="trade">
+                        <p class="trade__text">
+                            <span class="vd">VD</span> Web Coder Test <span class="task"> Task</span>
+                        </p>
+                        <p class="trade__year">2013</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

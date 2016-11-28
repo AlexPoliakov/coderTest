@@ -1,0 +1,57 @@
+/*Затемнение */
+.overflow {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  display: none;
+}
+
+.popup__centre {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  flex-flow: row wrap;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  z-index: 900;
+}
+
+/* модальное окно */
+.popup {
+  //position:absolute;
+  z-index: 901;
+  background: #ffffff;
+  width: 80%;
+  height: 70%;
+  //margin-left: -150px;
+  //top: 27%;
+  //left: 50%;
+  //display:none;
+  margin: auto;
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  opacity: 0.5;
+  background: url(../img/chrast.png) no-repeat center;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.popup .close:hover {
+  opacity: 0.8;
+}

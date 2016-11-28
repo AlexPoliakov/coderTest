@@ -1,0 +1,41 @@
+.footer {
+  max-width: 100%;
+  min-height: 100px;
+  margin-top: 50px;
+  border-top: 1px solid #cfcfcf;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.min__logo, .trade {
+  flex: 1;
+}
+
+.min__logo {
+  height: 100px;
+  background: url("../../img/logo-min.png") no-repeat left top;
+  margin-top: 20px;
+}
+
+.trade__text {
+  font-size: 20px;
+  color: #4e4e4e;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.vd {
+  color: #cfcfcf;
+}
+
+.task {
+  margin-left: 5px;
+
+}
+
+.trade__year {
+  color: #cfcfcf;
+  font-size: 31px;
+  text-align: right;
+}
